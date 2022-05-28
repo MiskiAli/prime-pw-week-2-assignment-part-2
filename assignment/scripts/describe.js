@@ -26,10 +26,11 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// We create a variable called "name" and assign it your name (Dane)
-// We make a conditional to code if name is exact macth to "Mary"
-// If it does match then we console.log "Hi, Mary!"
-// If it does not match then we console.log "how do you do?"
+// We create a variable called "dane" and assign it name
+// We check to see if the name variable we just made is true and exact macth to "Mary"
+// If the variable does match to Mary then we console.log "Hi, Mary!"
+// If the name in the varible does not match Mary then we console.log "How do you do?"
+
 
 //CODE
 /*
@@ -45,10 +46,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// We make a variable called secret 
-// We make a variable called code and assign it "123"
-// if the code matches "123" exactly then we assign the variable secret to equal to "super" and code to eqaul to code*2
-// and if code is greater than 250 then set assing secret to have "duper" as an output.
+// Make a variable called secret and another one called code then set the variable called code to 123
+// if the code is true and an exact match to 123 then the secret will be super 
+// the code will then be multiplied by 2 and will equal to 246
+// if code is greater than 250 then set secret to duper but if it is less 250 then th
+// console.log (secret) since the code is less than 250
 
 //CODE
 /*
@@ -70,13 +72,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// We make a variable called "isStudent" and assign it true,
-// a variable age and assign it 34, and a another called "zip"
-// and assign it 55407
-// we make a conditional saying that if isStudent is true and the zip is greater than 80000 
+// Make a variable called "isStudent" and assign it true, a variable age and assign it 34, and a another called "zip" and set it to 55407
+// Check if isStudent is true and if the zip is greater than 80000 
 // then we console.log it to say "You're a student from the West Coast!"
-// if the isStudent is false and the age is less than 30 then we console.log to say "What are your hobbies?"
-// if the isStudent is just true then we console.log to say "Welcome to Prime!"
+// Check if the isStudent is false and the age is less than 30 if so then console.log "What are your hobbies?"
+// if the isStudent is just true which it is then we console.log "Welcome to Prime!"
 // otherwise we console.log "How about the weather?"
 
 //CODE
@@ -137,8 +137,8 @@ if (number >= 2) {
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
-// colorTwo is also supposed to be set to purple
-// it should say colorTwo = 'purple';
+// if mix is true then both colorOne and colorTwo should be set to purple not just colorOne
+// you could say colorOne + colorTwo = 'purple'; 
 if (mix === true) {
   colorOne = 'purple';
 }
